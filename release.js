@@ -1,2 +1,1 @@
-
-	console.log("#####release LOG!!!!");
+console.log("#####Release LOG!!!!");
