@@ -10,3 +10,20 @@ npm-debug.log
 # Docker
 Dockerfile
 docker-compose.yml
+
+node_modules/
+bower_components
+/docs/API Rest - copia.json
+/docs/API Rest - copia.yaml
+/.env
+/bin
+./checkstyle.xml
+./pmd.xml
+./report.xml
+pmd.xml
+report.xml
+checkstyle.xml
+mocha/logSTG.txt
+mypass.pkpass
+/*.pkpass
+/tmp
