@@ -1,2 +1,2 @@
 console.log("#####Release LOG!!!!");
-process.exit(1);
+process.exit(0);
