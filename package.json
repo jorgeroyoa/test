@@ -7,28 +7,28 @@
   },
   "main": "index.js",
   "scripts": {
-    "prepublish": "node prepublish.js", //Run BEFORE the package is published. (Also run on local npm install without any arguments.)
+    "prepublish": "node prepublish.js", 
     "publish": "node publish.js",
-    "postpublish": "node postpublish.js", //Run AFTER the package is published.
-    "preinstall": "node preinstall.js", //Run BEFORE the package is installed
+    "postpublish": "node postpublish.js", 
+    "preinstall": "node preinstall.js", 
     "install": "node install.js",
-    "postinstall": "node postinstall.js", //Run AFTER the package is installed.
+    "postinstall": "node postinstall.js", 
     "preuninstall": "node preuninstall.js",
-    "uninstall": "node uninstall.js", //Run BEFORE the package is uninstalled.
-    "postuninstall": "node postuninstall.js", //Run AFTER the package is uninstalled.
-    "preversion": "node preversion.js", //, version: Run BEFORE bump the package version.
-    "postversion": "node postversion.js", //Run AFTER bump the package version.
+    "uninstall": "node uninstall.js", 
+    "postuninstall": "node postuninstall.js", 
+    "preversion": "node preversion.js", 
+    "postversion": "node postversion.js", 
     "pretest": "node pretest.js",
     "test": "node test.js",
-    "posttest": "node posttest.js", //Run by the npm test command.
-    "prestop": "node prepstop.js", //
-    "stop": "node stop.js", //
-    "poststop": "node poststop.js", //Run by the npm stop command.
+    "posttest": "node posttest.js", 
+    "prestop": "node prepstop.js", 
+    "stop": "node stop.js", 
+    "poststop": "node poststop.js", 
     "prestart": "node prestart.js",    
-    "poststart": "node poststart.js", //Run by the npm start command.
+    "poststart": "node poststart.js", 
     "prerestart": "node prerestart.js",
     "restart": "node restart.js",
-    "postrestart": "node postrestart.js", //Run by the npm restart command. Note: npm restart will run the stop and start scripts if no restart script is provided.
+    "postrestart": "node postrestart.js",
     "start": "node index.js",
     "heroku-prebuild": "node heroku-prebuild.js",
     "heroku-postbuild": "node heroku-postbuild.js"
