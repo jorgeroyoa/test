@@ -59,7 +59,9 @@
     "tedious": "^1.14.0",
     "tedious-connection-pool": "^1.0.5",
     "twin-bcrypt": "^2.1.1",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.4.7"
   },
   "devDependencies": {
     "grunt-contrib-copy": "^1.0.0",
