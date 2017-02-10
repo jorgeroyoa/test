@@ -84,5 +84,5 @@
   "license": "MIT",
   "engines": {
     "node": "7.*.*"
-  },
+  }
 }
