@@ -83,6 +83,6 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "7.*.*"
+    "node": "6.*.*"
   }
 }
