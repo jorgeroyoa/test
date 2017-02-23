@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 
 
-var async = require('asyncawait/async');
-var myawait = require('asyncawait/await');
+//var async = require('asyncawait/async');
+//var myawait = require('asyncawait/await');
 var _Promise = require('bluebird');
 
 var sumAsync = function(a, b) {
@@ -19,11 +19,13 @@ var sumAsync2 = function(a, b,c,cb) {
 		}, 3000);
 		
 }
+/*
 var suspendable = async(function(a, b) {
 	var result = myawait(sumAsync(a, b));
 	console.log("r: " + result);	
 	return result;
 });
+
 
 suspendable(2, 3).then(function(result) {
 	console.log("then: " + result)
@@ -37,7 +39,7 @@ as2(222, 3,4).then(function(result,arr) {
 }).catch(function(err) {
 	console.log("erras2: " + err)
 })
-
+*/
 
 
 async function suspendable2() {  
